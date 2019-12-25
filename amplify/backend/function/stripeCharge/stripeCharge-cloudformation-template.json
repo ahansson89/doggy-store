@@ -63,7 +63,7 @@
 				"Timeout": "25",
 				"Code": {
 					"S3Bucket": "stripe-demo-dev-20191221161947-deployment",
-					"S3Key": "amplify-builds/stripeCharge-31484864457946706a71-build.zip"
+					"S3Key": "amplify-builds/stripeCharge-682b364666594c333548-build.zip"
 				}
 			}
 		},
