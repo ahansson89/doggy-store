@@ -5,6 +5,9 @@ import Grid from "styled-components-grid";
 const Unit = styled(Grid.Unit)`
   margin-bottom: 10px;
   text-align: center;
+  :hover {
+    cursor: pointer;
+  }
 `;
 
 const Details = styled(Grid.Unit)`
