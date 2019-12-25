@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/charge",
+            "lambdaFunction": "stripeCharge",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "stripe",
+    "apiName": "stripe",
+    "functionArns": [
+        {
+            "lambdaFunction": "stripeCharge"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "stripe-demo-dev-20191221161947-authRole",
+        "unAuthRoleName": "stripe-demo-dev-20191221161947-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "stripeCharge",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "46243e98"
+}

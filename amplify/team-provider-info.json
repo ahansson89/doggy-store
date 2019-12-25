@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "stripe-demo-dev-20191221161947-authRole",
+            "UnauthRoleArn": "arn:aws:iam::428922958311:role/stripe-demo-dev-20191221161947-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::428922958311:role/stripe-demo-dev-20191221161947-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "stripe-demo-dev-20191221161947-deployment",
+            "UnauthRoleName": "stripe-demo-dev-20191221161947-unauthRole",
+            "StackName": "stripe-demo-dev-20191221161947",
+            "StackId": "arn:aws:cloudformation:us-west-2:428922958311:stack/stripe-demo-dev-20191221161947/caaa1830-2450-11ea-b29a-068aab07e82a"
+        }
+    }
+}
