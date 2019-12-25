@@ -10,14 +10,16 @@ The real reason that the Doggy Store was invented was do to a coding challenge f
 
 The app is not production ready and there are multiple things that could be improved to make it production ready.
 
-A working version of the app is available at <https://doggystore.ahansson.com>.
+A demo of the app is available at <https://doggystore.netlify.com>.
 
 ## Todo
 
+- Add address field to checkout
 - Allow Split Payments with Dog Breeder through Stripe
 - Allow Apple Pay and Google Pay from iOS and Android Devices
 - Use Stripe's Products API to power the storefront
 - Allow user to download their receipts from Stripe's API
+- Use AWS Secrets Manager for storing and retrieving the Stripe Secret key in the Lambda function instead of environment variables
 - Add login functionality for users
 - Add cart microservice/API
 - Allow Purchase of Multiple Dogs
